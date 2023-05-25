@@ -5,7 +5,7 @@ const router = express.Router();
 
 // ...
 
-router.get('/', consultarWebScraping);
+router.get('/:jornada', consultarWebScraping);
 
 
 
